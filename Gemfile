@@ -6,12 +6,15 @@ git_source(:github) do |repo_name|
 end
 
 
-gem 'devise_token_auth'
-gem 'omniauth'
-gem 'rack-cors', :require => 'rack/cors'
+gem 'omniauth', '1.3.2'
+gem 'devise_token_auth', '0.1.40'
+gem 'rack-cors', '0.4.0', :require => 'rack/cors'
+
+gem 'devise', '4.2.0'
+gem 'activesupport', '5.0.1'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.0.2'
+gem 'rails', '5.0.1'
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 0.18'
 # Use Puma as the app server
@@ -37,8 +40,8 @@ end
 group :development do
   gem 'listen', '~> 3.0.5'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
-  gem 'spring'
-  gem 'spring-watcher-listen', '~> 2.0.0'
+  gem 'spring', '2.0.1'
+  gem 'spring-watcher-listen', '2.0.1'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
