@@ -26,7 +26,7 @@ export class AuthService {
     );
   }
 
-  registerUser(signUpData:  {email:string, password:string, passwordConfirmation:string}):Observable<Response>{
+  registerUser(signUpData: {email:string, password:string, passwordConfirmation:string}):Observable<Response>{
     return this.authService.registerAccount(signUpData).map(
       res => {
         this.userSignedIn$.next(true);
