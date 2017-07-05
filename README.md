@@ -1,24 +1,7 @@
-# README
+# Basic Rails 5 / Angular 4 token based authentication
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+I finished this demo with the intent to get better at user authentication with Angular and Rails.
 
-Things you may want to cover:
+Finished app based on the article here - https://medium.com/@avatsaev/angular-2-and-ruby-on-rails-user-authentication-fde230ddaed8
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Uses Angular2 Token Service (https://www.npmjs.com/package/angular2-token) and DeviseTokenAuth (https://github.com/lynndylanhurley/devise_token_auth) to manage authentication.
